@@ -1,0 +1,16 @@
+.teacher-card {
+  text-align: center;
+  padding: 1.5rem;
+
+  .teacher-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 5px solid #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef2f7;
+  }
+}

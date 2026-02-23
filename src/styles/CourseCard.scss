@@ -1,0 +1,55 @@
+.course-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #3498db;
+
+  h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: #555;
+    margin-bottom: 1rem;
+  }
+
+  .course-meta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .badge {
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+
+      &.difficulty-beginner {
+        background-color: #d4edda;
+        color: #155724;
+      }
+
+      &.difficulty-intermediate {
+        background-color: #fff3cd;
+        color: #856404;
+      }
+
+      &.difficulty-advanced {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+
+      &.category-adults {
+        background-color: #d1ecf1;
+        color: #0c5460;
+      }
+
+      &.category-teens {
+        background-color: #e2d5f1;
+        color: #563d7c;
+      }
+    }
+  }
+}
