@@ -1,1 +1,1 @@
-{"version":3,"sources":["TeachersPage.scss","TeachersPage.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,eAAA;ACCF;ADCE;EACE,YAAA;EACA,aAAA;EACA,kBAAA;EACA,mBAAA;EACA,yBAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,mBAAA;ACCJ","file":"TeachersPage.css"}
+{"version":3,"sources":["TeachersPage.scss","TeachersPage.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,eAAA;ACCF;ADCE;EACE,YAAA;EACA,aAAA;EACA,kBAAA;EACA,mBAAA;EACA,yBAAA;EACA,gBAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;ACCJ;ADCI;EACE,WAAA;EACA,YAAA;EACA,oBAAA;KAAA,iBAAA;ACCN","file":"TeachersPage.css"}

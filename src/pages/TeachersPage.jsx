@@ -1,5 +1,4 @@
 import { teachers } from '../utils/mockData';
-import { FaUserTie } from 'react-icons/fa';
 import '../styles/TeachersPage.scss';
 
 function TeachersPage() {
@@ -13,7 +12,7 @@ function TeachersPage() {
         {teachers.map(teacher => (
           <div key={teacher.id} className="card teacher-card">
             <div className="teacher-photo">
-              <FaUserTie style={{ fontSize: '80px', color: '#3498db' }} />
+              <img src={teacher.photo} alt={teacher.name} />
             </div>
             <h3>{teacher.name}</h3>
             <p><strong>Квалификация:</strong> {teacher.qualification}</p>

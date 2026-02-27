@@ -1,0 +1,72 @@
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.course-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.course-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid #3498db;
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.course-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.course-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+.course-card .course-short-description {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.course-card .course-full-description {
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+.course-card .course-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+.course-card .course-meta .badge {
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.course-card .course-meta .badge.difficulty-beginner {
+  background-color: #d4edda;
+  color: #155724;
+}
+.course-card .course-meta .badge.difficulty-intermediate {
+  background-color: #fff3cd;
+  color: #856404;
+}
+.course-card .course-meta .badge.difficulty-advanced {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.course-card .course-meta .badge.category-adults {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+.course-card .course-meta .badge.category-teens {
+  background-color: #e2d5f1;
+  color: #563d7c;
+}/*# sourceMappingURL=CoursesPage.css.map */

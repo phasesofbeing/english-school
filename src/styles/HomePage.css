@@ -1,3 +1,86 @@
-.courses-list {
-  margin-top: 1.5rem;
+.left-column .section {
+  margin-bottom: 2.5rem;
+}
+.left-column h3 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+.left-column .benefits-list {
+  margin-bottom: 2rem;
+}
+.left-column .benefits-list li {
+  margin-bottom: 0.5rem;
+}
+.left-column .formats-list {
+  margin-left: 1.2rem;
+}
+.left-column .formats-list li {
+  margin-bottom: 0.7rem;
+}
+.left-column .faq-item {
+  margin-bottom: 1.5rem;
+}
+.left-column .faq-item .faq-question {
+  margin-bottom: 0.3rem;
+  color: #2c3e50;
+}
+.left-column .faq-item .faq-answer {
+  color: #555;
+  margin-left: 1rem;
+  line-height: 1.5;
+}
+.left-column .promo-list {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+.left-column .promo-list li {
+  margin-bottom: 0.5rem;
+}
+.left-column .testimonial {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  background-color: #f0f7ff;
+  border-radius: 8px;
+  font-style: italic;
+  border-left: 3px solid #3498db;
+}
+.left-column .testimonial p {
+  margin-bottom: 0.5rem;
+}
+.left-column .testimonial .testimonial-author {
+  text-align: right;
+  font-weight: 600;
+  font-style: normal;
+  color: #2c3e50;
+  margin-bottom: 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e6ed;
+}
+
+.stat-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3498db;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0.3rem;
 }/*# sourceMappingURL=HomePage.css.map */

@@ -1,11 +1,16 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { FaPaperPlane } from 'react-icons/fa';
 import { saveApplication } from '../utils/storage';
 import { courses } from '../utils/mockData';
 
+
 function ApplyPage() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const courseId = queryParams.get('courseId');
+
   const [formData, setFormData] = useState({
     full_name: '',
     email: '',
@@ -19,6 +24,20 @@ function ApplyPage() {
   const [message, setMessage] = useState(null);
 
   const levelOptions = [...new Set(courses.map(c => c.level))];
+
+  useEffect(() => {
+    if (courseId) {
+      const course = courses.find(c => c.id === parseInt(courseId));
+      if (course) {
+        setFormData(prev => ({
+          ...prev,
+          course_level: course.level,
+          course_title: course.title
+        }));
+      }
+    }
+  }, [courseId]);
+
   const filteredCourses = courses.filter(c => c.level === formData.course_level);
 
   const handleChange = (e) => {
